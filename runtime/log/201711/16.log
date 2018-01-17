@@ -1,0 +1,1153 @@
+[ 2017-11-16T00:03:28+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.88kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T00:47:34+08:00 ] 172.17.8.146 117.136.39.100 POST /index.php/index/Wxspider/_apiWxGetDomainurl
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetDomainurl [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,680.66kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetDomainurl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '61',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.19 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'Www.taobao.com',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetDomainurl[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_rankexport` WHERE  `domainurl` = 'www.taobao.com'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_rankexport`  SET `use_number`=5,`add_time`=1510764454  WHERE  `id` = 46 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_rankexport` WHERE  `rid` = 46 [ RunTime:0.015625s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T00:47:38+08:00 ] 172.17.8.146 117.136.39.100 POST /index.php/index/Wxspider/_apiGetPublicArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiGetPublicArticle [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,973.87kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiGetPublicArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.19 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiGetPublicArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_public_article` WHERE  `is_delete` = 0  AND `level` = 1 ORDER BY id asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_public_article` WHERE  `is_delete` = 0  AND `level` = 2 ORDER BY id asc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T00:47:46+08:00 ] 172.17.8.146 117.136.39.100 GET /index.php/index/Wxspider/_apiGetArticleDetails?id=29
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiGetArticleDetails?id=29 [运行时间：2.218750s][吞吐率：0.45req/s] [内存消耗：1,991.63kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiGetArticleDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.19 NetType/4G Language/zh_CN',
+  'cookie' => 'ECS[visit_times]=1; BDTUJIAID=14a79d185ad1a8948f9d43bb38b8f348',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'host' => 'spider.yumishe88.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '29',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiGetArticleDetails[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `details_page` FROM `au_public_article` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T01:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T02:03:28+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T03:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T04:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T05:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T06:03:28+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T07:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.265625s][吞吐率：3.76req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T08:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T09:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T10:03:30+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：3.796875s][吞吐率：0.26req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T11:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T12:03:28+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T13:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T13:05:17+08:00 ] 172.17.8.146 140.205.225.191 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,328.95kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-register-upload)',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+  'accept-encoding' => 'identity',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-16T13:05:18+08:00 ] 172.17.8.146 140.205.225.191 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,328.96kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1;Alibaba.Security.Heimdall.6577126.phpcmsv9-attachment-sql)',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+  'accept-encoding' => 'identity',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-16T14:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T14:33:01+08:00 ] 172.17.8.146 106.11.226.172 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.51kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'spider.yumishe88.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept-encoding' => 'gzip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-16T15:03:30+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：3.359375s][吞吐率：0.30req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T16:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T17:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T17:55:04+08:00 ] 172.17.8.146 117.136.39.97 POST /index.php/index/Wxspider/_apiGetPublicArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiGetPublicArticle [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,973.87kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiGetPublicArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.19 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiGetPublicArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_public_article` WHERE  `is_delete` = 0  AND `level` = 1 ORDER BY id asc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_public_article` WHERE  `is_delete` = 0  AND `level` = 2 ORDER BY id asc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T17:55:13+08:00 ] 172.17.8.146 117.136.39.97 POST /index.php/index/Wxspider/_apiWxGetDomainurl
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetDomainurl [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,680.66kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetDomainurl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-cn',
+  'content-length' => '61',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/0/page-frame.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.5.19 NetType/4G Language/zh_CN',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'Www.taobao.com',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetDomainurl[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_rankexport` WHERE  `domainurl` = 'www.taobao.com'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_rankexport`  SET `use_number`=6,`add_time`=1510826113  WHERE  `id` = 46 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_rankexport` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_rankexport` WHERE  `rid` = 46 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T18:03:30+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：3.875000s][吞吐率：0.26req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T19:03:28+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：1.359375s][吞吐率：0.74req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T20:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T21:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T22:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-16T23:03:27+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.140625s][吞吐率：7.11req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.031250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

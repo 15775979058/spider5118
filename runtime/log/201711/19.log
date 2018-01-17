@@ -1,0 +1,1626 @@
+[ 2017-11-19T00:03:25+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.88kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T01:03:25+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T02:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T03:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T03:52:52+08:00 ] 172.17.8.146 106.11.227.91 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,329.51kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'spider.yumishe88.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'accept-encoding' => 'gzip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-19T04:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T05:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T06:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T07:03:25+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T08:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T09:03:25+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T09:31:43+08:00 ] 172.17.8.146 220.112.14.67 GET /index.php/index/Wxuser/_apiGetWxUser?province=Guangdong&city=Shenzhen&country=CN&gender=1&nickName=%E5%93%A5%E6%9C%AC%E5%93%88%E7%99%BB&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FfHES88uFcOpFMKX2rEB53TxpoRN0jvN3vgLRJwjIG07SareWK5kszTWBricQXvvzgvW2QsObx4GibbGcaqx5PY1A%2F0&js_code=013kTWZs06v2Le1LcaZs0X310t0kTWZ9
+[ log ] spider.yumishe88.com/index.php/index/Wxuser/_apiGetWxUser?province=Guangdong&city=Shenzhen&country=CN&gender=1&nickName=%E5%93%A5%E6%9C%AC%E5%93%88%E7%99%BB&avatarUrl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FfHES88uFcOpFMKX2rEB53TxpoRN0jvN3vgLRJwjIG07SareWK5kszTWBricQXvvzgvW2QsObx4GibbGcaqx5PY1A%2F0&js_code=013kTWZs06v2Le1LcaZs0X310t0kTWZ9 [运行时间：0.390625s][吞吐率：2.56req/s] [内存消耗：1,907.80kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxuser',
+    2 => '_apiGetWxUser',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'province' => 'Guangdong',
+  'city' => 'Shenzhen',
+  'country' => 'CN',
+  'gender' => '1',
+  'nickName' => '哥本哈登',
+  'avatarUrl' => 'https://wx.qlogo.cn/mmopen/vi_32/fHES88uFcOpFMKX2rEB53TxpoRN0jvN3vgLRJwjIG07SareWK5kszTWBricQXvvzgvW2QsObx4GibbGcaqx5PY1A/0',
+  'js_code' => '013kTWZs06v2Le1LcaZs0X310t0kTWZ9',
+)
+[ info ] [ RUN ] app\index\controller\Wxuser->_apiGetWxUser[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxuser.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_wxuser` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_wxuser` WHERE  `nickName` = '哥本哈登' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T09:32:17+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetDomainurl
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetDomainurl [运行时间：0.468750s][吞吐率：2.13req/s] [内存消耗：1,998.41kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetDomainurl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '64',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.yumishe88.com',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetDomainurl[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_rankexport` WHERE  `domainurl` = 'www.yumishe88.com'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_rankexport`  SET `use_number`=23,`add_time`=1511055136  WHERE  `id` = 41 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('企业全网营销' , 1 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=CuUQJfcGWT0LVhpbX2zBbCgrkTNQNGu7VymrKrV5r1D4ogQo8UEwXjyHZ5IjWMH1AXnqk5pqKplt1F51SSr5Vq' , 140 , 1511055137 , 15 , 1 , 0 , 41) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销型' , 3 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=b-Y7N9IoooeGPwDS_9SC6LsIHwEJQxWEdJdYFxec10I83DAKX729qAGKEKJjPLBa' , 2 , 1511055137 , 15 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('深圳全网营销' , 6 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=2C-1Ju_DikzMVScu7SNbJh-YAV3MESqyYLndVL-a4olT-LPRGT9kcqhuN6GucQuh' , 0 , 1511055137 , 6 , 20 , 1 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销课程' , 25 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=SLCqxBf2c-8IgUIdPjk5tbd5Tai2Qcr3jJbJ7NaHfYAQ9lteyBD-ly7zcRg_1vlRQDyaMvfASQB4PrAsQuRfs_' , 89 , 1511055137 , 8 , 1 , 50 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销课程多少钱' , 40 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=Iv6-WAO64ana93LntwCDq2HdJ6kl3WF41JQ5CdQ9kUmuURmeG7RUWUCiYuv0B9lOXwWwKw0ReposQv7z828oDK' , 4 , 1511055137 , 9 , 2 , 20 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销培训' , 42 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=o5jbXMTgI0X2rUVpIu3HYMxXKD24YfRADAb3MnO1zs8YlNvzm7s3txhLmAws-F1n226jNY5qsmHfW2MUKc57HK' , 4 , 1511055137 , 10 , 10 , 20 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销优势都有哪些' , 46 , -1 , '网络营销的特点和优势有哪些?网络推广服务商【玉米社】' , 'http://www.baidu.com/link?url=xvd_CVlkZgAovy4zFOORXagOv3-Ozb358tOC6_HL_zP03gbAhX8Wf_wrn7J-Cc4QxKzqgBN_LgnaoPASA21eWq' , 1 , 1511055137 , 0 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销公司' , 48 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=P7kg1C3t-8xUmzeQ-7gooEUUEG_PU8z-rJobDNRy60ipd6jq5SjzAqIDS7oHbtBXIRAHdWCsgKjI5cKk2a787K' , 119 , 1511055137 , 11 , 10 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销培训学费' , 52 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=iMnNZ5NuJQ8lEUTO2ZUtsDGhXwjxqAEZWBD2jDJSk1uWtAUMQb7Goxva5Dnmy0eYR6jdMWwDqbBvo7qt_AZNG_' , 2 , 1511055137 , 14 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销该怎么做' , 56 , -1 , '从支付宝蚂蚁森林,看线上全网营销怎么做-【玉米社】' , 'http://www.baidu.com/link?url=2vHAlrHzQ8AQplB8eyYxS8h24zQIdBkbywJW6572T9KvgMV5dxgVbamlKsb23ySAmvQZRUa4jiBJ3IAo0B_uFa' , 1 , 1511055137 , 0 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('如何做网络营销' , 64 , 35 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=-HxFvPsJLgL581cvmHxTLovGnQ2vALarmHRLGma4uzf8N427MtFFBU1n_U76WcERB8iiJQzWVwmUKCq_hKGMm_' , 198 , 1511055137 , 9 , 4 , 30 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销怎么做' , 66 , 72 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=Bt3ffyX7LbwoVuzax20vEOyujXM0kN6-Q8OIdkf-aQA6d6bzaLCIcumoFICqvJe_Y742lXLeYtctyQvyYCEDI_' , 144 , 1511055137 , 7 , 10 , 60 , 41) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销销售' , 66 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=U8lZO9ZpDWXFbV5Tba00IlaWDrzKLtJEV6uPFto0NSa8QjYT8Ky3xWmFJnAYazhMqfkQFrsTiwY9-2Cf6bMs3K' , 4 , 1511055137 , 0 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('销售培训在哪里可以学' , 69 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=6YgedqSrBc71Baqttw1ESPGVL09TLEcUBJYsiGt4tS6Vh1qIv0MLnWoaIt-csH1kCbQ-pwQl_nsaHpk_t3MQga' , 1 , 1511055137 , 0 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('怎样做网络营销' , 72 , 94 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=yh0ePwJv1fDMghPXKaK2NB8U6lMjYtX6HJfprQU8WJJXpJqv84Ux7gZbz5vBhFWx27Kg7fLpFlS2vUAyuRREwK' , 317 , 1511055137 , 8 , 20 , 70 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销有用吗' , 78 , -1 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=Zcnjns9tx_MZ7DSIPJ0Nj2V938FYEcE9K7hb95qHiGOUhWSo2S3qMQD2hJj-kgJ8asTgZD1VlDyL1GYdGA7cZ_' , 1 , 1511055137 , 5 , 0 , 0 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销公司有哪些' , 83 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=PPWkOTE2KTqjHKo1PfGEUGaCyOaUEBN6IYAuGhamk7SA5C8O0nKY9F0zd6db49Wq' , 0 , 1511055137 , 8 , 30 , 2 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('如何做网络销售' , 97 , -1 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=e3yQmM8AcSVuIp1JqeF6B0wiR7diNIdxANWp8j6OCM8GpOgugVjhj-L7ldnQ-npzOVcxQBjn9KvN2Vm7_A3L2K' , 1 , 1511055137 , 12 , 0 , 4 , 41) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销如何找到客户' , 98 , -1 , '每天让50个客户主动找你,营销型网站的秘密-【玉米社】' , 'http://www.baidu.com/link?url=PBGS7E2fYg4NPLFxpgY8RJPGDS64Nbl3QkzZPgGb4kLa-hsOyi5nXNnzEhrMQYTj3LjU2Ew7aVw2tI7m10Jg-_' , 0 , 1511055137 , 0 , 0 , 0 , 41) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T09:32:52+08:00 ] 172.17.8.146 220.112.14.67 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,330.09kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458,1509801165; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458,1509801165',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-19T10:01:56+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetDomainurl
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetDomainurl [运行时间：0.203125s][吞吐率：4.92req/s] [内存消耗：1,968.66kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetDomainurl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '51',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'dqwd',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetDomainurl[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_rankexport` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_rankexport` WHERE  `domainurl` = 'dqwd'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_input_bdpc_rankexport` (`domainurl` , `add_time` , `oppenid` , `use_number`) VALUES ('dqwd' , 1511056916 , 'oUWX80BkF0uY4e06wcCFyFdPpG_s' , 1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:06:00+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.265625s][吞吐率：3.76req/s] [内存消耗：1,969.63kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '59',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'ww',
+  'keyword' => 'w',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'ww'  AND `keyword` = 'w'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_input_bdpc_morerank` (`domainurl` , `add_time` , `oppenid` , `keyword` , `use_number`) VALUES ('ww' , 1511057160 , 'oUWX80BkF0uY4e06wcCFyFdPpG_s' , 'w' , 1) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:06:51+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.218750s][吞吐率：4.57req/s] [内存消耗：1,998.47kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '109',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.yumishe88.com',
+  'keyword' => '全网营销',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.yumishe88.com'  AND `keyword` = '全网营销'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=3,`add_time`=1511057211  WHERE  `id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_rankexport` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('企业全网营销' , 1 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=CuUQJfcGWT0LVhpbX2zBbCgrkTNQNGu7VymrKrV5r1D4ogQo8UEwXjyHZ5IjWMH1AXnqk5pqKplt1F51SSr5Vq' , 140 , 1511057211 , 15 , 1 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销型' , 3 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=b-Y7N9IoooeGPwDS_9SC6LsIHwEJQxWEdJdYFxec10I83DAKX729qAGKEKJjPLBa' , 2 , 1511057211 , 15 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('深圳全网营销' , 6 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=2C-1Ju_DikzMVScu7SNbJh-YAV3MESqyYLndVL-a4olT-LPRGT9kcqhuN6GucQuh' , 0 , 1511057211 , 6 , 20 , 1 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销课程' , 25 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=SLCqxBf2c-8IgUIdPjk5tbd5Tai2Qcr3jJbJ7NaHfYAQ9lteyBD-ly7zcRg_1vlRQDyaMvfASQB4PrAsQuRfs_' , 89 , 1511057211 , 8 , 1 , 50 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销课程多少钱' , 40 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=Iv6-WAO64ana93LntwCDq2HdJ6kl3WF41JQ5CdQ9kUmuURmeG7RUWUCiYuv0B9lOXwWwKw0ReposQv7z828oDK' , 4 , 1511057211 , 9 , 2 , 20 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销培训' , 42 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=o5jbXMTgI0X2rUVpIu3HYMxXKD24YfRADAb3MnO1zs8YlNvzm7s3txhLmAws-F1n226jNY5qsmHfW2MUKc57HK' , 4 , 1511057211 , 10 , 10 , 20 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销优势都有哪些' , 46 , -1 , '网络营销的特点和优势有哪些?网络推广服务商【玉米社】' , 'http://www.baidu.com/link?url=xvd_CVlkZgAovy4zFOORXagOv3-Ozb358tOC6_HL_zP03gbAhX8Wf_wrn7J-Cc4QxKzqgBN_LgnaoPASA21eWq' , 1 , 1511057211 , 0 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销公司' , 48 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=P7kg1C3t-8xUmzeQ-7gooEUUEG_PU8z-rJobDNRy60ipd6jq5SjzAqIDS7oHbtBXIRAHdWCsgKjI5cKk2a787K' , 119 , 1511057211 , 11 , 10 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销培训学费' , 52 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=iMnNZ5NuJQ8lEUTO2ZUtsDGhXwjxqAEZWBD2jDJSk1uWtAUMQb7Goxva5Dnmy0eYR6jdMWwDqbBvo7qt_AZNG_' , 2 , 1511057211 , 14 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销该怎么做' , 56 , -1 , '从支付宝蚂蚁森林,看线上全网营销怎么做-【玉米社】' , 'http://www.baidu.com/link?url=2vHAlrHzQ8AQplB8eyYxS8h24zQIdBkbywJW6572T9KvgMV5dxgVbamlKsb23ySAmvQZRUa4jiBJ3IAo0B_uFa' , 1 , 1511057211 , 0 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('如何做网络营销' , 64 , 35 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=-HxFvPsJLgL581cvmHxTLovGnQ2vALarmHRLGma4uzf8N427MtFFBU1n_U76WcERB8iiJQzWVwmUKCq_hKGMm_' , 198 , 1511057211 , 9 , 4 , 30 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销怎么做' , 66 , 72 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=Bt3ffyX7LbwoVuzax20vEOyujXM0kN6-Q8OIdkf-aQA6d6bzaLCIcumoFICqvJe_Y742lXLeYtctyQvyYCEDI_' , 144 , 1511057211 , 7 , 10 , 60 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('全网营销销售' , 66 , -1 , '1年时间帮助数10家企业实现1000万+,教你全网营销10倍盈利绝招' , 'http://www.baidu.com/link?url=U8lZO9ZpDWXFbV5Tba00IlaWDrzKLtJEV6uPFto0NSa8QjYT8Ky3xWmFJnAYazhMqfkQFrsTiwY9-2Cf6bMs3K' , 4 , 1511057211 , 0 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('销售培训在哪里可以学' , 69 , -1 , '全网营销课程培训学费一般多少钱?【玉米社】全网营销培训怎么样?' , 'http://www.baidu.com/link?url=6YgedqSrBc71Baqttw1ESPGVL09TLEcUBJYsiGt4tS6Vh1qIv0MLnWoaIt-csH1kCbQ-pwQl_nsaHpk_t3MQga' , 1 , 1511057211 , 0 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('怎样做网络营销' , 72 , 94 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=yh0ePwJv1fDMghPXKaK2NB8U6lMjYtX6HJfprQU8WJJXpJqv84Ux7gZbz5vBhFWx27Kg7fLpFlS2vUAyuRREwK' , 317 , 1511057211 , 8 , 20 , 70 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销有用吗' , 78 , -1 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=Zcnjns9tx_MZ7DSIPJ0Nj2V938FYEcE9K7hb95qHiGOUhWSo2S3qMQD2hJj-kgJ8asTgZD1VlDyL1GYdGA7cZ_' , 1 , 1511057211 , 5 , 0 , 0 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销公司有哪些' , 83 , -1 , '网络营销|seo优化|网络推广公司|营销型网站|全网营销|网络营销外...' , 'http://www.baidu.com/link?url=PPWkOTE2KTqjHKo1PfGEUGaCyOaUEBN6IYAuGhamk7SA5C8O0nKY9F0zd6db49Wq' , 0 , 1511057211 , 8 , 30 , 2 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('如何做网络销售' , 97 , -1 , '网络营销怎么做才有效果,实战案例让人叹为观止!【玉米社】' , 'http://www.baidu.com/link?url=e3yQmM8AcSVuIp1JqeF6B0wiR7diNIdxANWp8j6OCM8GpOgugVjhj-L7ldnQ-npzOVcxQBjn9KvN2Vm7_A3L2K' , 1 , 1511057211 , 12 , 0 , 4 , 7) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_rankexport` (`keyword` , `rank` , `baidu_index` , `title` , `page_url` , `bidword_company_count` , `add_time` , `bidword_kwc` , `bidword_pcpv` , `bidword_wisepv` , `rid`) VALUES ('网络营销如何找到客户' , 98 , -1 , '每天让50个客户主动找你,营销型网站的秘密-【玉米社】' , 'http://www.baidu.com/link?url=PBGS7E2fYg4NPLFxpgY8RJPGDS64Nbl3QkzZPgGb4kLa-hsOyi5nXNnzEhrMQYTj3LjU2Ew7aVw2tI7m10Jg-_' , 0 , 1511057211 , 0 , 0 , 0 , 7) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:08:43+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：20.609375s][吞吐率：0.05req/s] [内存消耗：1,999.57kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '109',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.yumishe88.com',
+  'keyword' => '推广落地',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.yumishe88.com'  AND `keyword` = '推广落地'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_input_bdpc_morerank` (`domainurl` , `add_time` , `oppenid` , `keyword` , `use_number`) VALUES ('www.yumishe88.com' , 1511057303 , 'oUWX80BkF0uY4e06wcCFyFdPpG_s' , '推广落地' , 1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.zhihu.com/question/34864798/answer/60259097' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '推广页,为什么叫着陆页或者落地页?为什么不叫推广页等呢? - 知乎' , 'https://www.zhihu.com/question/34864798/answer/60259097' , 1 , 1682575 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.360doc.com/content/16/0526/17/28509424_562519531.shtml' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '品牌营销推广落地策略大家谈' , 'http://www.360doc.com/content/16/0526/17/28509424_562519531.shtml' , 2 , 1531967 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://wenku.baidu.com/view/f9a50fe7af1ffc4fff47ac2c.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '网络推广落地方案_百度文库' , 'https://wenku.baidu.com/view/f9a50fe7af1ffc4fff47ac2c.html' , 3 , 2694934 , 'S+' , 11 , 1511057323) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.wubuyan.com/article/21' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '杜明明:AMAZON一次推广落地的邂逅(下篇) - 亚马逊知无不言 - 跨境...' , 'http://www.wubuyan.com/article/21' , 4 , 81 , 'E' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=1kQFQul725BKbchiwgZm7jS5O9PnQ6_uF_BRg-PVTPENji8m72j2ohinXTuCluUXacZ4McA4r9n28Wbq0gw9CEkNfyb36YqLjMMc2NMkjZK' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '先落地再推广是什么意思_百度知道' , 'http://zhidao.baidu.com/link?url=1kQFQul725BKbchiwgZm7jS5O9PnQ6_uF_BRg-PVTPENji8m72j2ohinXTuCluUXacZ4McA4r9n28Wbq0gw9CEkNfyb36YqLjMMc2NMkjZK' , 5 , 3403496 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.dituixia.net/h-nd-17.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '地推侠教你如何落地推广O2O产品' , 'http://www.dituixia.net/h-nd-17.html' , 6 , 33 , 'F' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=N8nGFWR-kbVBQa8VYkVowT8eLPeNT0YpbTAYtZ2ARt02S4TSRTrMrmiFKxUiK-XrR-FYEiP6XGiv2Me_vUmIg_' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '什么叫“落地销售”,“落地销售”如何解释?_百度知道' , 'http://zhidao.baidu.com/link?url=N8nGFWR-kbVBQa8VYkVowT8eLPeNT0YpbTAYtZ2ARt02S4TSRTrMrmiFKxUiK-XrR-FYEiP6XGiv2Me_vUmIg_' , 7 , 3403496 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.chinaz.com/manage/2014/1209/376109.shtml' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '流量落地页 百度推广不得不重视的细节 - 站长之家' , 'http://www.chinaz.com/manage/2014/1209/376109.shtml' , 8 , 174790 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.zhihu.com/question/34864798' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '推广页,为什么叫着陆页或者落地页?为什么不叫推广页等呢? - 知乎' , 'https://www.zhihu.com/question/34864798' , 9 , 1682575 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.sohu.com/a/120871845_494472' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '如何做好百度推广?落地页的吸引力4大法则是什么_搜狐其它_搜狐网' , 'http://www.sohu.com/a/120871845_494472' , 10 , 1626127 , 'S' , 11 , 1511057323) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://down.winshang.com/zt/2015/ydhlsd/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '移动互联时代 购物中心O2O营销推广落地策略_专题报道_赢商网' , 'http://down.winshang.com/zt/2015/ydhlsd/' , 11 , 3520 , 'C' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.docin.com/p-51896920.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '推广落地活动方案 - 豆丁网' , 'http://www.docin.com/p-51896920.html' , 12 , 924157 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://doc.mbalib.com/view/2598ffe52719aea7444b3c50e7e49ffa.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '落地推广 - MBA智库文档' , 'http://doc.mbalib.com/view/2598ffe52719aea7444b3c50e7e49ffa.html' , 13 , 120512 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.zhihu.com/question/26385436' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '金融互联网平台如何落地推广更有效? - 知乎' , 'https://www.zhihu.com/question/26385436' , 14 , 1682575 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=cu5jDbRGHMpNzZRzuk-36RBlIS3HB43jK1G1l3fDeo8eVdQnA5C2JPB6hl0HS6Hv393_M6_CCOOGoB-P26r3e0H4fFLFJ4b55Iz_sNh-ONW' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '全网全网,全网营销落地推广是什么???_百度知道' , 'http://zhidao.baidu.com/link?url=cu5jDbRGHMpNzZRzuk-36RBlIS3HB43jK1G1l3fDeo8eVdQnA5C2JPB6hl0HS6Hv393_M6_CCOOGoB-P26r3e0H4fFLFJ4b55Iz_sNh-ONW' , 15 , 3403496 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baijiahao.baidu.com/s?id=1576678630482609734&wfr=spider&for=pc' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '五步理论 彻底解决推广落地页设计问题' , 'http://baijiahao.baidu.com/s?id=1576678630482609734&wfr=spider&for=pc' , 16 , 1701422 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=6WFBNAs2ByEj413AnsnqISOOjGVPpYw0L_DVgMr_1mqKctuqdY2t17Ocx3esi5dyh6mvJFLlUSWLQgIGmRdszm-56V085ufM3n6V0QsSX37' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '请问在网上如何进行产品推广?效果快,能落地。_百度知道' , 'http://zhidao.baidu.com/link?url=6WFBNAs2ByEj413AnsnqISOOjGVPpYw0L_DVgMr_1mqKctuqdY2t17Ocx3esi5dyh6mvJFLlUSWLQgIGmRdszm-56V085ufM3n6V0QsSX37' , 17 , 3403496 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://jingyan.baidu.com/article/49ad8bce772e365834d8fa1b.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '百度竞价优化排名与推广落地页相关性_百度经验' , 'http://jingyan.baidu.com/article/49ad8bce772e365834d8fa1b.html' , 18 , 1407357 , 'S+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://zhuanlan.zhihu.com/p/28864329' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '如何设计一个高转化率的推广落地页 - 知乎专栏' , 'https://zhuanlan.zhihu.com/p/28864329' , 19 , 154262 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://mt.sohu.com/20150615/n415058555.shtml' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '购物中心O2O营销推广落地策略_搜狐其它_搜狐网' , 'http://mt.sohu.com/20150615/n415058555.shtml' , 20 , 649369 , 'S' , 11 , 1511057323) [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://wapwenku.baidu.com/view/e716dee60342a8956bec0975f46527d3240ca60a?ssid=&from=&bd_page_type=1&uid=bk_1338118090_860&pu=sl@1,pw@1000,sz@224_220,pd@1,fz@2,lp@1,tpl@color,&st=1&wk=ab&md=ab_1' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '品牌全年营销策划推广落地项目明细_百度文库' , 'https://wapwenku.baidu.com/view/e716dee60342a8956bec0975f46527d3240ca60a?ssid=&from=&bd_page_type=1&uid=bk_1338118090_860&pu=sl@1,pw@1000,sz@224_220,pd@1,fz@2,lp@1,tpl@color,&st=1&wk=ab&md=ab_1' , 21 , 7392 , 'C+' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://shop.zbj.com/10247316/sid-624092.html' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '网络营销落地推广-【茬子营销】-猪八戒网' , 'http://shop.zbj.com/10247316/sid-624092.html' , 22 , 14615 , 'B' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.marketingbetter.com/ecommerce/copywriting/howto-landing-page.htm' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '如何创建一个成功的落地页 - 启洋科技' , 'http://www.marketingbetter.com/ecommerce/copywriting/howto-landing-page.htm' , 23 , 13 , 'F' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.woshipm.com/operate/216106.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , 'APP推广 | 这应该是最完整的地推方案了 | 人人都是产品经理' , 'http://www.woshipm.com/operate/216106.html' , 24 , 22214 , 'B' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.bokee.net/bloggermodule/blog_viewblog.do?id=29232250' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '推广落地页做一个多少钱。其实很便宜。-信息流投放的文章..._企博网' , 'http://www.bokee.net/bloggermodule/blog_viewblog.do?id=29232250' , 25 , 22656 , 'B' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.gywb.cn/yhfw/a-150666.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '盘点南京网络推广落地方法' , 'http://www.gywb.cn/yhfw/a-150666.html' , 26 , 43841 , 'A' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.doc88.com/p-5028955596365.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '营销活动落地方案 - 道客巴巴' , 'http://www.doc88.com/p-5028955596365.html' , 27 , 771328 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.ruanwenclass.com/html/cptg/6177.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '这些营销方式可以让你的推广落地生根-品牌营销-软文课堂—— 一站...' , 'http://www.ruanwenclass.com/html/cptg/6177.html' , 28 , 179 , 'E' , 11 , 1511057323) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.hztbc.com/news/news_46126.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '企业文化推广落地的三大方案-资讯中心-时代光华管理培训网' , 'http://www.hztbc.com/news/news_46126.html' , 29 , 5573 , 'C' , 11 , 1511057323) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://v.qq.com/x/page/p0507qv08qs.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '114.225.55.90' , '平台落地推广_腾讯视频' , 'http://v.qq.com/x/page/p0507qv08qs.html' , 30 , 1136514 , 'S' , 11 , 1511057323) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:10:30+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：20.437500s][吞吐率：0.05req/s] [内存消耗：1,997.24kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '110',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'http://www.muyingzhijia.com/',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_input_bdpc_morerank` (`domainurl` , `add_time` , `oppenid` , `keyword` , `use_number`) VALUES ('www.muyingzhijia.com' , 1511057410 , 'oUWX80BkF0uY4e06wcCFyFdPpG_s' , '母婴' , 1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=??&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴_百度图片' , 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=??&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' , 1 , 1093818 , 'S+' , 12 , 1511057430) [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baobao.sohu.com/' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '搜狐母婴-搜狐' , 'http://baobao.sohu.com/' , 2 , 96911 , 'A+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baike.baidu.com/link?url=vdNPi-2NYFEZwxEo5YVSA_SoMNVXU8Ay3xZ558w09g5EQ9wxC-5RG_8iQ7aY2R81BfqA_PZxN-ZaQg6PzAjIZ2XPTZ5aGySl5Wq8WOX8myfXu8WpT4gznjveSHWmAQP-' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴用品_百度百科' , 'http://baike.baidu.com/link?url=vdNPi-2NYFEZwxEo5YVSA_SoMNVXU8Ay3xZ558w09g5EQ9wxC-5RG_8iQ7aY2R81BfqA_PZxN-ZaQg6PzAjIZ2XPTZ5aGySl5Wq8WOX8myfXu8WpT4gznjveSHWmAQP-' , 3 , 2334196 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=??&fr=ala0&tpl=5' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴吧_百度贴吧' , 'http://tieba.baidu.com/f?kw=??&fr=ala0&tpl=5' , 4 , 2774810 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.muyingzhijia.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴之家-让宝宝过得更好' , 'http://www.muyingzhijia.com/' , 5 , 310 , 'E' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.mama.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '妈妈网_官方网站_怀孕、育儿等知识交流平台_中国妈妈第一门户网站' , 'http://www.mama.cn/' , 6 , 198251 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.beibei.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '贝贝网-买母婴上贝贝!1亿妈妈信赖的母婴正品特卖商城' , 'http://www.beibei.com/' , 7 , 4731 , 'C' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.23myw.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴网,中国专业的育儿和母婴知识分享! - 育儿网' , 'http://www.23myw.com/' , 8 , 76 , 'E+' , 12 , 1511057430) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://map.baidu.com/?newmap=1&s=con&wd=母婴&c=362&from=alamap&tpl=mapdots' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '在咸宁市搜索母婴_百度地图' , 'http://map.baidu.com/?newmap=1&s=con&wd=母婴&c=362&from=alamap&tpl=mapdots' , 9 , 298905 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.mmbang.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '妈妈帮-妈妈首选的怀孕育儿经验交流论坛社区' , 'https://www.mmbang.com/' , 10 , 213751 , 'S' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://redbaby.suning.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '苏宁红孩子母婴商城-值得信赖的母婴特卖商城_正品保证_苏宁红孩子...' , 'http://redbaby.suning.com/' , 11 , 245 , 'E' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.iqiyi.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴频道-最新最全的母婴_育儿_早教高清视频-爱奇艺' , 'http://baby.iqiyi.com/' , 12 , 75 , 'E' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.tmall.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '双11母婴主会场-理想生活上天猫' , 'http://baby.tmall.com/' , 13 , 17 , 'F' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.hao123.com/link/v3/?key=pZwYTjCEQLILIz4CmytknWn8mvqVQvddXy-8uzt=&pageid=hao123-pcbdhz-muying&monkey=m-pcbdhz-muying&title=muyingwangzhi' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴网址推荐_母婴大全_hao123母婴' , 'http://www.hao123.com/link/v3/?key=pZwYTjCEQLILIz4CmytknWn8mvqVQvddXy-8uzt=&pageid=hao123-pcbdhz-muying&monkey=m-pcbdhz-muying&title=muyingwangzhi' , 14 , 80366 , 'A' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.sina.com.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '新浪育儿_母婴育儿专业交流平台_怀孕分娩养育母婴健康_新浪网' , 'http://baby.sina.com.cn/' , 15 , 71448 , 'A' , 12 , 1511057430) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.iqiyi.com/baby/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴频道-最新最全的母婴_育儿_早教高清视频-爱奇艺' , 'http://www.iqiyi.com/baby/' , 16 , 1514936 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://bbs.yaolan.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '育儿论坛_育儿社区_母婴论坛-摇篮网' , 'http://bbs.yaolan.com/' , 17 , 12261 , 'B' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://hao.360.cn/muying.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴_360导航' , 'http://hao.360.cn/muying.html' , 18 , 6345 , 'C' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baobao.sohu.com/topic/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴专题汇总-搜狐母婴' , 'http://baobao.sohu.com/topic/' , 19 , 96911 , 'A+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.baobei360.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '中国婴童网,中国孕婴童行业优势网络传媒,中国母婴网,360孕婴童网,...' , 'http://www.baobei360.com/' , 20 , 9235 , 'C' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.jd.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '京东母婴-奶粉_尿裤湿巾_洗护用品_安全座椅-京东' , 'http://baby.jd.com/' , 21 , 41 , 'F' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.aiqin.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '爱亲母婴 - 中国母婴加盟行业连锁品牌' , 'http://www.aiqin.com/' , 22 , 335 , 'D' , 12 , 1511057430) [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://muying.jmw.com.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴加盟——中国加盟网(全国知名母婴加盟品牌查询)' , 'http://muying.jmw.com.cn/' , 23 , 174 , 'E' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.supumall.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '速普母婴商城-专业的母婴商城,正品低价,母婴用品购物就选速普母婴...' , 'http://www.supumall.com/' , 24 , 129 , 'E+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.muying.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴网-父母最贴心的亲子育儿网站' , 'http://www.muying.com/' , 25 , 4553 , 'C' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.familybabys.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴网_全国最大的育儿知识百科全书_家有好baby' , 'http://www.familybabys.com/' , 26 , 38 , 'F+' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.chinamypp.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '中国母婴品牌网-中国母婴用品品牌招商|加盟|连锁|代理|权威母婴...' , 'http://www.chinamypp.com/' , 27 , 561 , 'D' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.wenkang.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '母婴健康_闻康资讯网-中国第一专业母婴网站' , 'http://baby.wenkang.cn/' , 28 , 688 , 'D' , 12 , 1511057430) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.maigoo.com/maigoo/4919myw_index.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '111.170.105.126' , '【十大母婴网站】【母婴网排行榜】母婴网站哪个好?→ 买购网' , 'http://www.maigoo.com/maigoo/4919myw_index.html' , 29 , 227611 , 'S+' , 12 , 1511057430) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:25:29+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=2,`add_time`=1511058329  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:25:39+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=3,`add_time`=1511058339  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:27:44+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,004.94kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '107',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'http://www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=4,`add_time`=1511058464  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:34:37+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=5,`add_time`=1511058877  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:36:45+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=6,`add_time`=1511059005  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:37:49+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=7,`add_time`=1511059069  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:46:08+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=8,`add_time`=1511059568  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T10:49:34+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.03kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=9,`add_time`=1511059774  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:03:26+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.093750s][吞吐率：10.67req/s] [内存消耗：1,968.91kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:08:19+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.02kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=10,`add_time`=1511060899  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:08:24+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.02kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=11,`add_time`=1511060904  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:16:57+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.02kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=12,`add_time`=1511061417  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:34:48+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,005.02kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '94',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '母婴',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '母婴'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=13,`add_time`=1511062488  WHERE  `id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 12 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:41:20+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：21.109375s][吞吐率：0.05req/s] [内存消耗：1,996.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '112',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '婴儿用品',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '婴儿用品'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_input_bdpc_morerank` (`domainurl` , `add_time` , `oppenid` , `keyword` , `use_number`) VALUES ('www.muyingzhijia.com' , 1511062859 , 'oUWX80BkF0uY4e06wcCFyFdPpG_s' , '婴儿用品' , 1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.zhihu.com/question/24481562' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '有什么婴儿用品的品牌值得推荐? - 知乎' , 'https://www.zhihu.com/question/24481562' , 1 , 1682575 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://baike.baidu.com/item/母婴用品/521190' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '母婴用品_百度百科' , 'https://baike.baidu.com/item/母婴用品/521190' , 2 , 2334196 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://jingyan.baidu.com/article/f3ad7d0fc4ad3209c2345b65.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '初生婴儿用品清单_百度经验' , 'http://jingyan.baidu.com/article/f3ad7d0fc4ad3209c2345b65.html' , 3 , 1407357 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baike.baidu.com/link?url=8LV_4ALUQ5jMWsBa1YkPSBJsN-0t8JlkF0xn9-8a1MTvR6gcYxCzU9yu5n8HpSHPvo_o9Q0bM-sxAZIF4QVDtgXTibq5lphezklkTIqAiDMbaIYm56WtlE6ekjOA1XZC' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品_百度百科' , 'http://baike.baidu.com/link?url=8LV_4ALUQ5jMWsBa1YkPSBJsN-0t8JlkF0xn9-8a1MTvR6gcYxCzU9yu5n8HpSHPvo_o9Q0bM-sxAZIF4QVDtgXTibq5lphezklkTIqAiDMbaIYm56WtlE6ekjOA1XZC' , 4 , 2334196 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.lijiababy.com.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '...官网-首页-母婴购物上丽家:安全、高品质、高性价比的母婴用品' , 'http://www.lijiababy.com.cn/' , 5 , 280 , 'E' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.muyingzhijia.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.yaolan.com/zhishi/yingeryongpin/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '【婴儿用品】婴儿用品的选择_婴儿用品排行榜_摇篮育儿百科' , 'http://www.yaolan.com/zhishi/yingeryongpin/' , 7 , 98875 , 'A+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://zixun.jia.com/article/496773.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '新生婴儿用品清单 初生婴儿的用品大全_母婴知识_学堂_齐家网' , 'http://zixun.jia.com/article/496773.html' , 8 , 109533 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://map.baidu.com/?newmap=1&s=con&wd=婴儿用品&c=224&from=alamap&tpl=mapdots' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '在苏州市搜索婴儿用品_百度地图' , 'http://map.baidu.com/?newmap=1&s=con&wd=婴儿用品&c=224&from=alamap&tpl=mapdots' , 9 , 298905 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.haohaizi.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '好孩子官方商城 - 母婴用品、儿童用品选购平台,全程满足宝宝的...' , 'https://www.haohaizi.com/' , 10 , 1703 , 'D' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baike.pcbaby.com.cn/qzbd/1020290.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '【新生儿用品】新生儿用品清单_新生儿必备用品_亲子百科_太平洋...' , 'http://baike.pcbaby.com.cn/qzbd/1020290.html' , 11 , 134838 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=??????&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品_百度图片' , 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=??????&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' , 12 , 1093818 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=??????&fr=ala0&tpl=5' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.baobei360.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://baike.baidu.com/item/婴儿用品/5722581' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品_百度百科' , 'https://baike.baidu.com/item/婴儿用品/5722581' , 15 , 2334196 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.baobei360.com/series/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '母婴用品产品大全,一站式批发进货平台-中国婴童网' , 'http://www.baobei360.com/series/' , 16 , 9235 , 'C' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.china-10.com/china/769yunf_index.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品十大品牌_婴幼儿用品品牌排行→十大品牌网' , 'http://www.china-10.com/china/769yunf_index.html' , 17 , 95308 , 'A+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.glgoodbaby.com/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '中山宝宝好儿童用品有限公司' , 'http://www.glgoodbaby.com/' , 18 , 71 , 'E' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://wenku.baidu.com/view/ed1eca37a98271fe910ef971.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '史上最全的刚出生婴儿用品清单,2000万妈妈的选择!_图文_百度文库' , 'https://wenku.baidu.com/view/ed1eca37a98271fe910ef971.html' , 19 , 2694934 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://zhidao.baidu.com/question/2207257159467572988.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '新生儿一般都需要准备哪些用品_百度知道' , 'https://zhidao.baidu.com/question/2207257159467572988.html' , 20 , 3403496 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baobao.roola.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '淘宝婴儿用品_初生婴儿用品专卖_新生婴儿用品大全-罗拉母婴' , 'http://baobao.roola.cn/' , 21 , 59 , 'E+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.china10.org/zhan148.html' LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品品牌_中国婴儿用品十大品牌【中国著名婴儿用品品牌网】' , 'http://www.china10.org/zhan148.html' , 22 , 5223 , 'C+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.maigoo.com/maigoo/769yunf_index.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '【婴儿用品十大品牌_婴儿用品品牌】婴儿用品什么牌子好?→买购网' , 'http://www.maigoo.com/maigoo/769yunf_index.html' , 23 , 227611 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'https://www.zhihu.com/topic/19552735/hot' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿用品 - 热门问答 - 知乎' , 'https://www.zhihu.com/topic/19552735/hot' , 24 , 1682575 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.ci123.com/baike/693.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '【婴儿用品】婴儿用品清单_婴儿用品排行榜_育儿百科_育儿网' , 'http://www.ci123.com/baike/693.html' , 25 , 51866 , 'A' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.1688.com/topic/yingeryongpin.html' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '【婴儿用品】_婴儿用品厂家_婴儿用品批发市场 - 阿里巴巴' , 'http://www.1688.com/topic/yingeryongpin.html' , 26 , 1121507 , 'S+' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baobao.sohu.com/20150715/n416865270.shtml' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '婴儿不需要的用品 家长没必要买_搜狐母婴_搜狐网' , 'http://baobao.sohu.com/20150715/n416865270.shtml' , 27 , 96911 , 'A+' , 13 , 1511062880) [ RunTime:0.046875s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://www.worldkids.com.cn/' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '童品网——儿童用品第一门户网、婴儿用品门户网' , 'http://www.worldkids.com.cn/' , 28 , 188 , 'E' , 13 , 1511062880) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `page_url` = 'http://baby.sina.com.cn/health/12/0501/2012-01-05/1710198363.shtml' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_output_bdpc_morerank` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `top_rank` , `site_weight` , `rid` , `add_time`) VALUES ('baidupc' , '49.64.6.37' , '最全最实用的婴儿用品点评_健康_亲子中心_新浪网' , 'http://baby.sina.com.cn/health/12/0501/2012-01-05/1710198363.shtml' , 29 , 71448 , 'A' , 13 , 1511062880) [ RunTime:0.015625s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T11:42:27+08:00 ] 172.17.8.146 220.112.14.67 POST /index.php/index/Wxspider/_apiWxGetKeyword
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_apiWxGetKeyword [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,003.73kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_apiWxGetKeyword',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://servicewechat.com/wx194844c76a6279c0/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 appservice webview/100000',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://1895443652.appservice.open.weixin.qq.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '112',
+  'connection' => 'keep-alive',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'oppenId' => 'oUWX80BkF0uY4e06wcCFyFdPpG_s',
+  'domainUrl' => 'www.muyingzhijia.com',
+  'keyword' => '婴儿用品',
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_apiWxGetKeyword[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_input_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`add_time`,`use_number` FROM `au_input_bdpc_morerank` WHERE  `domainurl` = 'www.muyingzhijia.com'  AND `keyword` = '婴儿用品'  AND `is_delete` = 0 ORDER BY add_time desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_input_bdpc_morerank`  SET `use_number`=2,`add_time`=1511062947  WHERE  `id` = 13 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_output_bdpc_morerank` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_output_bdpc_morerank` WHERE  `rid` = 13 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-19T12:03:25+08:00 ] 172.17.8.146 211.149.239.60 GET /index.php/index/Wxspider/_autoSpiderWxArticle
+[ log ] spider.yumishe88.com/index.php/index/Wxspider/_autoSpiderWxArticle [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：1,968.89kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Wxspider',
+    2 => '_autoSpiderWxArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'spider.yumishe88.com',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Wxspider->_autoSpiderWxArticle[ C:\phpstudy\WWW\spider5118\application\index\controller\Wxspider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_public_article` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/1048699'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996985'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996097'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996103'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996102'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996101'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996100'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996099'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_public_article` WHERE  `details_page` = 'http://www.gzhshoulu.wang/article/996098'  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

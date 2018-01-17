@@ -1,0 +1,122 @@
+[ 2017-11-03T00:02:44+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.129335s][吞吐率：7.73req/s] [内存消耗：2,237.62kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/index/index.html[/www/web/spider5118/public_html/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-03T08:53:29+08:00 ] 211.149.239.60 61.164.246.180 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.086760s][吞吐率：11.53req/s] [内存消耗：2,238.25kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '223.104.63.180',
+  'x-real-ip' => '223.104.63.180',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509172858,1509173036,1509173090,1509444074; Hm_lvt_6925839509ea52f924e410725015f7b4=1509172858,1509173036,1509173091,1509444074',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/index/index.html[/www/web/spider5118/public_html/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-03T08:54:15+08:00 ] 211.149.239.60 61.164.246.180 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.054825s][吞吐率：18.24req/s] [内存消耗：2,238.04kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '223.104.63.180',
+  'x-real-ip' => '223.104.63.180',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509172858,1509173036,1509173090,1509444074; Hm_lvt_6925839509ea52f924e410725015f7b4=1509172858,1509173036,1509173091,1509444074',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/index/index.html[/www/web/spider5118/public_html/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-03T23:52:14+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.082828s][吞吐率：12.07req/s] [内存消耗：2,237.53kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/index/index.html[/www/web/spider5118/public_html/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------

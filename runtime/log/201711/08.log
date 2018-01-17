@@ -1,0 +1,1644 @@
+[ 2017-11-08T16:24:13+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,471.98kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:24:18+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,872.26kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'chaotisqlname'@'localhost' (using password: YES)[C:\phpstudy\WWW\spider5118\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:27:09+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.51kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:27:10+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,872.26kb] [文件加载：52]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'chaotisqlname'@'localhost' (using password: YES)[C:\phpstudy\WWW\spider5118\thinkphp\library\think\db\Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:28:20+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,171.24kb] [文件加载：58]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:28:24+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.23kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:28:26+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.062500s][吞吐率：16.00req/s] [内存消耗：2,460.85kb] [文件加载：57]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:28:46+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.23kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:28:49+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.078125s][吞吐率：12.80req/s] [内存消耗：2,248.90kb] [文件加载：55]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:29:42+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.109375s][吞吐率：9.14req/s] [内存消耗：2,248.98kb] [文件加载：55]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031250s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:29:45+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.23kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:30:40+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.640625s][吞吐率：0.03req/s] [内存消耗：1,736.22kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://spider.yumishe88.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ C:\phpstudy\WWW\spider5118\application\index\controller\Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1510129810  WHERE  `id` = 6 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:31:45+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.421875s][吞吐率：0.03req/s] [内存消耗：1,736.23kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://spider.yumishe88.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ C:\phpstudy\WWW\spider5118\application\index\controller\Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1510129876  WHERE  `id` = 7 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:32:25+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.26kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:32:58+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.546875s][吞吐率：0.03req/s] [内存消耗：1,736.22kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://spider.yumishe88.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ C:\phpstudy\WWW\spider5118\application\index\controller\Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1510129948  WHERE  `id` = 6 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:33:12+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.23kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:01+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.38kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:04+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.20kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:11+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.36kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:19+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.36kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:30+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.36kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:34:56+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.38kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:35:02+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：1,329.51kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:35:08+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.20kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:35:34+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.28kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:37:26+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.38kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T16:37:29+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.046875s][吞吐率：21.33req/s] [内存消耗：2,034.20kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T16:38:04+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.500000s][吞吐率：0.03req/s] [内存消耗：1,736.22kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://spider.yumishe88.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ C:\phpstudy\WWW\spider5118\application\index\controller\Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1510130254  WHERE  `id` = 6 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T17:37:19+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.88kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T17:37:29+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.79kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T17:38:14+08:00 ] 172.17.8.146 116.7.97.96 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.015625s][吞吐率：64.00req/s] [内存消耗：1,329.79kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-08T17:38:20+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,034.52kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.015625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T17:38:36+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/index/keywords.html
+[ log ] spider.yumishe88.com/index.php/index/index/keywords.html [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,012.21kb] [文件加载：55]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://spider.yumishe88.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '47',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'businessType' => '16',
+  'businessName' => '万科',
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `au_keywords` (`bid` , `keyword` , `add_time`) VALUES (16 , '万科' , 1510133916) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T17:38:39+08:00 ] 172.17.8.146 116.7.97.96 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.031250s][吞吐率：32.00req/s] [内存消耗：2,035.57kb] [文件加载：56]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ C:\phpstudy\WWW\spider5118\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\spider5118\public/../application/index\view\index\keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-11-08T17:39:12+08:00 ] 172.17.8.146 116.7.97.96 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.515625s][吞吐率：0.03req/s] [内存消耗：1,736.55kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\spider5118\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1508491493,1509515571,1509610411,1509938926; Hm_lvt_6925839509ea52f924e410725015f7b4=1508491493,1509515571,1509610411,1509938926; dsc_real_ip=116.7.97.96; session_id_ip=116.7.97.96_1cbf742755dd010cb77c07120a3f57d4; ECS_ID=534d3205a6eb4e9e9b8e0ebea6088318e9329f37; ECS[visit_times]=2; province=6; city=77; district=705',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://spider.yumishe88.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '5',
+  'connection' => 'close',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '8',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ C:\phpstudy\WWW\spider5118\application\index\controller\Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015625s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1510133922  WHERE  `id` = 8 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,3 @@
+javascript:void(0);document.write("<a href='http://www.baidu.com' target='_blank'>点击一下</a>");
+javascript:void(0);document.write("<a href='http://www.youku.com' target='_blank'>点击一下</a>");
+javascript:void(0);document.write("<a href='http://www.souhu.com' target='_blank'>点击一下</a>");

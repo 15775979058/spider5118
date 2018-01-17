@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="37f28b67-6d78-4a12-b64a-76106e795673" name="http://39.106.11.33" url="http://39.106.11.33">
+        <fileTransfer host="39.106.11.33" port="21" username="ftproot">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

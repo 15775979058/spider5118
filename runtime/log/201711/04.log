@@ -1,0 +1,1829 @@
+[ 2017-11-04T00:17:19+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.086100s][吞吐率：11.61req/s] [内存消耗：2,237.52kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/index/index.html[/www/web/spider5118/public_html/thinkphp/library/think/view/driver/Think.php:80]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:21:01+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.073002s][吞吐率：13.70req/s] [内存消耗：2,242.09kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/public/base.html[/www/web/spider5118/public_html/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:21:02+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.071838s][吞吐率：13.92req/s] [内存消耗：2,242.09kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:/www/web/spider5118/public_html/public/../application/index/view/public/base.html[/www/web/spider5118/public_html/thinkphp/library/think/Template.php:1086]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:21:21+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.050034s][吞吐率：19.99req/s] [内存消耗：2,405.55kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T00:21:27+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.097439s][吞吐率：10.26req/s] [内存消耗：3,095.63kb] [文件加载：52]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'autouploads'[/www/web/spider5118/public_html/thinkphp/library/think/db/Connection.php:287]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:23:25+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.141315s][吞吐率：7.08req/s] [内存消耗：3,565.28kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.011440s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001139s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000254s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:23:28+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.092171s][吞吐率：10.85req/s] [内存消耗：3,936.70kb] [文件加载：57]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.005400s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000071s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000072s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:23:30+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.052609s][吞吐率：19.01req/s] [内存消耗：3,353.42kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000101s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:24:05+08:00 ] 211.149.239.60 59.63.249.234 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：30.661451s][吞吐率：0.03req/s] [内存消耗：2,900.97kb] [文件加载：48]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://spider.yumishe88.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ /www/web/spider5118/public_html/application/index/controller/Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000406s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1509726215  WHERE  `id` = 6 [ RunTime:0.066915s ]
+[ sql ] [ SQL ] SELECT `id`,`bid` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.005203s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/大米/22607?fr=aladdin' LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=′ó?×&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.dami.cn/' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishichina.com/YuanLiao/DaMi/' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://dami.99114.com/' LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/有机大米/2506874' LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xinshipu.com/zuofadaquan/1147/' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishij.net/大米' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xiachufang.com/category/743/' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米的做法大全_下厨房' , 'http://www.xiachufang.com/category/743/' , 9 , 'javascript:void(0);document.write(\"<a href=\'http://www.xiachufang.com\' target=\'_blank\'>click</a>\");' , 48254 , 'A+' , 6 , 17 , 1509726245) [ RunTime:0.005635s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pingce.net/' LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=′ó?×&fr=ala0&tpl=5' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami518.com/' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baidu.com/s?tn=baidurt&rtt=1&bsst=1&wd=′ó?×&origin=ps' LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinacaipu.com/tags/4054/' LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.haodou.com/recipe/all/85/' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baike.com/wiki/大米' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.zhihu.com/question/19920993' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljsdm.com/' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami168.cn/' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xiangha.com/xiangke/402' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.byb.cn/food_78.aspx' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://wenku.baidu.com/view/d67c80de16fc700aba68fc26.html' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://idami.cc/' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.douguo.com/ingredients/大米' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://baike.pcbaby.com.cn/qzbd/1024683.html' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.1688.com/topic/dami.html' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://shop.bytravel.cn/tc/dami.html' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinagrain.cn/dami' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.womai.com/Sort-0-6215.htm' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.sh/' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米游戏官方网站' , 'http://www.dami.sh/' , 30 , 'javascript:void(0);document.write(\"<a href=\'http://www.dami.sh\' target=\'_blank\'>click</a>\");' , 5 , 'G' , 6 , 17 , 1509726245) [ RunTime:0.005319s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jinlongyu.cn/brand/ejbrand_105007006004.html' LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.china-10.com/china/060dm_index.html' LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://gmjyw.99114.com/' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmfh.org.cn/' LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yz88.org.cn/qg/dami/' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://i.youku.com/u/UMTMwMjQyMzUwNA==' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.ttmeishi.com/YuanLiao/dami/' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.clmiye.com/' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.ifeng.com/opinion/special/dudami/' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.51dami.cc/' LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '中国名牌大米网_中国品牌大米网-中国大米行业门户网站' , 'http://www.51dami.cc/' , 40 , 'javascript:void(0);document.write(\"<a href=\'http://www.51dami.cc\' target=\'_blank\'>click</a>\");' , 14 , 'G' , 6 , 17 , 1509726245) [ RunTime:0.010175s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5chang.cn/' LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://list.suning.com/0-500436-0.html' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnhnb.com/p/dami/' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5cdm.com/' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chrice.net/' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmzl.com/' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jldmw.com/' LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hsdrice.com/' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://weibo.com/jamiebilbow' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.suning.com/018u9.html' LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jxsnmy.cn/' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '江西富硒米,江西米业,江西大米,江西圣牛米业有限公司' , 'http://www.jxsnmy.cn/' , 51 , 'javascript:void(0);document.write(\"<a href=\'http://www.jxsnmy.cn\' target=\'_blank\'>click</a>\");' , 6 , 'G' , 6 , 17 , 1509726245) [ RunTime:0.003880s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://china.globrand.com/join-dami/' LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米招商加盟 - globrand(全球品牌网)' , 'http://china.globrand.com/join-dami/' , 52 , 'javascript:void(0);document.write(\"<a href=\'http://china.globrand.com\' target=\'_blank\'>click</a>\");' , 12147 , 'B' , 6 , 17 , 1509726245) [ RunTime:0.003628s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.cndzys.com/wugu/dami/' LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zhongchou.com/deals/k-大米' LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xsmy.com/' LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcyfmy.com/' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.nongnet.com/tag_26.aspx' LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sfbest.com/oil/111-0-0-0-0-2-0-0-0-0-0.html' LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnjidan.com/dami/' LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xjbh.net/prod-17-1701-170100/cat75.html' LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://fitness.39.net/food/14205.html' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dongbeijiangda.com/' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zou114.com/nutrient/y1.html' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米的营养成分表-大米的蛋白质、维生素、脂肪和矿物质含量' , 'http://www.zou114.com/nutrient/y1.html' , 63 , 'javascript:void(0);document.write(\"<a href=\'http://www.zou114.com\' target=\'_blank\'>click</a>\");' , 6836 , 'C+' , 6 , 17 , 1509726245) [ RunTime:0.003969s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yudaofu1905.com.cn/' LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmxh.com/' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.khygmy.com/' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://health.pclady.com.cn/healthzq/liangshi/dami/' LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.beixian.com/' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://so.redocn.com/haibao/b4f3c3d7baa3b1a8.htm' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.ule.com/search.do?keywords=大米' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://corp.net114.com/scat-dami.html' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami88.com/' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnys.com/shiliao/dami.html' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.58pic.com/tupian/dami.html' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yzzhongyue.com/' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hi-rice.net/' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '深圳市大米科技有限公司' , 'http://www.hi-rice.net/' , 76 , 'javascript:void(0);document.write(\"<a href=\'http://www.hi-rice.net\' target=\'_blank\'>click</a>\");' , 2 , 'G+' , 6 , 17 , 1509726245) [ RunTime:0.004465s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dt888.cn/' LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zgjm.org/wupin/dami.html' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://v.qq.com/vplus/dmpc' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.foodmate.net/tag_275.html' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmzs.com/' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zhaoshang100.com/s-626/' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://iask.sina.com.cn/b/11743896.html' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcfymy.com/' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=7HBSnXgFl2qwMuXUucJHttHckaXoroYbomirMjreOAezKY5AfjeEqRkatpHl9sd6UPRgU_3gt6LdOvlVzbzvvq' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米英语怎么写?_百度知道' , 'http://zhidao.baidu.com/link?url=7HBSnXgFl2qwMuXUucJHttHckaXoroYbomirMjreOAezKY5AfjeEqRkatpHl9sd6UPRgU_3gt6LdOvlVzbzvvq' , 85 , 'javascript:void(0);document.write(\"<a href=\'http://zhidao.baidu.com\' target=\'_blank\'>click</a>\");' , 3401083 , 'S+' , 6 , 17 , 1509726245) [ RunTime:0.004185s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.net/' LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sggdm.com/' LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hbdzrmy.com/' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jssfmy.com/' LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.admkc.com/' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '艾大米' , 'http://www.admkc.com/' , 90 , 'javascript:void(0);document.write(\"<a href=\'http://www.admkc.com\' target=\'_blank\'>click</a>\");' , 1 , 'H' , 6 , 17 , 1509726245) [ RunTime:0.003716s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pcbaby.com.cn/tlist/485.html' LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.ys137.com/yinshi/149698.html' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.spzs.net/zs/b8-s82-p1.htm' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.damicms.com/' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '首页- 大米CMS官网,大米建站,手机建站CMS,手机APP,手机CMS,app ...' , 'http://www.damicms.com/' , 94 , 'javascript:void(0);document.write(\"<a href=\'http://www.damicms.com\' target=\'_blank\'>click</a>\");' , 32 , 'F' , 6 , 17 , 1509726245) [ RunTime:0.003789s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinadami.com/' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.imcmc.com.cn/category.php?id=205' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.caoguilin.com/' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.carrefour.cn/category/?c=250021230' LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dingdami.com/' LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '订大米' , 'http://www.dingdami.com/' , 99 , 'javascript:void(0);document.write(\"<a href=\'http://www.dingdami.com\' target=\'_blank\'>click</a>\");' , 0 , 'I' , 6 , 17 , 1509726245) [ RunTime:0.003410s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.bigmii.com/' LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '221.233.228.101' , '大米微信社区 -' , 'http://www.bigmii.com/' , 100 , 'javascript:void(0);document.write(\"<a href=\'http://www.bigmii.com\' target=\'_blank\'>click</a>\");' , 0 , 'I' , 6 , 17 , 1509726245) [ RunTime:0.003416s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:24:11+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.111837s][吞吐率：8.94req/s] [内存消耗：3,649.68kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.003279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000128s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T00:24:33+08:00 ] 211.149.239.60 59.63.249.234 GET /index.php
+[ log ] spider.yumishe88.com/index.php [运行时间：0.032982s][吞吐率：30.32req/s] [内存消耗：2,188.80kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T06:53:55+08:00 ] 211.149.239.60 61.139.126.52 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.129721s][吞吐率：7.71req/s] [内存消耗：2,187.50kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Close',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://spider.yumishe88.com',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+  'host' => 'spider.yumishe88.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T10:36:52+08:00 ] 211.149.239.60 61.164.246.180 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.075242s][吞吐率：13.29req/s] [内存消耗：2,189.20kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T10:36:57+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/business
+[ log ] spider.yumishe88.com/index.php/index/index/business [运行时间：0.082236s][吞吐率：12.16req/s] [内存消耗：3,560.98kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'business',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->business[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/business.html [ array (
+  0 => 'busData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001124s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.007133s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_business` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `au_business` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,5 [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:37:02+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.093367s][吞吐率：10.71req/s] [内存消耗：3,354.31kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/business',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.013471s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000131s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:37:38+08:00 ] 211.149.239.60 61.164.246.180 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.880288s][吞吐率：0.03req/s] [内存消耗：2,898.04kb] [文件加载：48]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'content-length' => '5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ /www/web/spider5118/public_html/application/index/controller/Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1509763028  WHERE  `id` = 6 [ RunTime:0.020628s ]
+[ sql ] [ SQL ] SELECT `id`,`bid` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/大米/22607?fr=aladdin' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=′ó?×&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.dami.cn/' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://dami.99114.com/' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishichina.com/YuanLiao/DaMi/' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xinshipu.com/zuofadaquan/1147/' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/有机大米/2506874' LIMIT 1 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishij.net/大米' LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xiachufang.com/category/743/' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami518.com/' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pingce.net/' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=′ó?×&fr=ala0&tpl=5' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baidu.com/s?tn=baidurt&rtt=1&bsst=1&wd=′ó?×&origin=ps' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.haodou.com/recipe/all/85/' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baike.com/wiki/大米' LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.zhihu.com/question/19920993' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljsdm.com/' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xiangha.com/xiangke/402' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami168.cn/' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.byb.cn/food_78.aspx' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://wenku.baidu.com/view/d67c80de16fc700aba68fc26.html' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://idami.cc/' LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.douguo.com/ingredients/大米' LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://baike.pcbaby.com.cn/qzbd/1024683.html' LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.51dami.cc/' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.1688.com/topic/dami.html' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinagrain.cn/dami' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.womai.com/Sort-0-6215.htm' LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.ttmeishi.com/YuanLiao/dami/' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.sh/' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jinlongyu.cn/brand/ejbrand_105007006004.html' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.china-10.com/china/060dm_index.html' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://gmjyw.99114.com/' LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmfh.org.cn/' LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yz88.org.cn/qg/dami/' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://i.youku.com/u/UMTMwMjQyMzUwNA==' LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.ifeng.com/opinion/special/dudami/' LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://list.suning.com/0-500436-0.html' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5chang.cn/' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnhnb.com/p/dami/' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5cdm.com/' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.clmiye.com/' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.ch-rice.com/' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '大米网 - Powered by phpwind' , 'http://www.ch-rice.com/' , 43 , 'javascript:void(0);document.write(\"<a href=\'http://www.ch-rice.com\' target=\'_blank\'>click</a>\");' , 0 , 'H+' , 6 , 17 , 1509763057) [ RunTime:0.012679s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmzl.com/' LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jldmw.com/' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://weibo.com/jamiebilbow' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.slblmy.com/' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '东北大米_东北大米厂家_吉林大米【蛟河市松谷粮油有限公司】' , 'http://www.slblmy.com/' , 47 , 'javascript:void(0);document.write(\"<a href=\'http://www.slblmy.com\' target=\'_blank\'>click</a>\");' , 4 , 'H' , 6 , 17 , 1509763057) [ RunTime:0.006453s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.suning.com/018u9.html' LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://zhizhizhi.com/c/shipin/liangyou/dami/' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.shengzhujiage.com/special-dami/' LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '今年大米价格会涨吗?大米批发市场价格走势_2017年大米最新价格...' , 'http://www.shengzhujiage.com/special-dami/' , 50 , 'javascript:void(0);document.write(\"<a href=\'http://www.shengzhujiage.com\' target=\'_blank\'>click</a>\");' , 5296 , 'C+' , 6 , 17 , 1509763057) [ RunTime:0.022595s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zhongchou.com/deals/k-大米' LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xsmy.com/' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.nongnet.com/tag_26.aspx' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sfbest.com/oil/111-0-0-0-0-2-0-0-0-0-0.html' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcyfmy.com/' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://shop.bytravel.cn/produce/54CD6C3459277C73/' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '响水大米_宁安市特产响水大米专题' , 'http://shop.bytravel.cn/produce/54CD6C3459277C73/' , 56 , 'javascript:void(0);document.write(\"<a href=\'http://shop.bytravel.cn\' target=\'_blank\'>click</a>\");' , 21095 , 'B+' , 6 , 17 , 1509763058) [ RunTime:0.027116s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dongbeijiangda.com/' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://fitness.39.net/food/14205.html' LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmxh.com/' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xjbh.net/prod-17-1701-170100/cat75.html' LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.damiceo.com/' LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zou114.com/nutrient/y1.html' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yudaofu1905.com.cn/' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.beixian.com/' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.khygmy.com/' LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://health.pclady.com.cn/healthzq/liangshi/dami/' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnys.com/shiliao/dami.html' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.ule.com/search.do?keywords=大米' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://corp.net114.com/scat-dami.html' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami88.com/' LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.58pic.com/tupian/dami.html' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yzzhongyue.com/' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hi-rice.net/' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zgjm.org/wupin/dami.html' LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.foodmate.net/tag_275.html' LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sgexe.com/' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmzs.com/' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnjidan.com/dami/' LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zhaoshang100.com/s-626/' LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://iask.sina.com.cn/b/11743896.html' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zgjydm.roboo.com/' LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dt888.cn/' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcfymy.com/' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=jEtwlByqjb1UtKNzyW8Uc8K3c34NF4VI7cIjp88bhbeKL5f83EvFa72pNhSyvaZRh-pPeTB7MHeq720l5UuNSq' LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '大米英语怎么写?_百度知道' , 'http://zhidao.baidu.com/link?url=jEtwlByqjb1UtKNzyW8Uc8K3c34NF4VI7cIjp88bhbeKL5f83EvFa72pNhSyvaZRh-pPeTB7MHeq720l5UuNSq' , 84 , 'javascript:void(0);document.write(\"<a href=\'http://zhidao.baidu.com\' target=\'_blank\'>click</a>\");' , 3402163 , 'S+' , 6 , 17 , 1509763058) [ RunTime:0.005056s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sggdm.com/' LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jssfmy.com/' LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pcbaby.com.cn/tlist/485.html' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.ys137.com/yinshi/149698.html' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.net/' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://v.qq.com/vplus/dmpc' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.caoguilin.com/' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xjmqdm.com/' LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=五常大米' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '218.90.1.173' , '五常大米吧-百度贴吧' , 'http://tieba.baidu.com/f?kw=五常大米' , 93 , 'javascript:void(0);document.write(\"<a href=\'http://tieba.baidu.com\' target=\'_blank\'>click</a>\");' , 2799213 , 'S+' , 6 , 17 , 1509763058) [ RunTime:0.010267s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.spzs.net/zs/b8-s82-p1.htm' LIMIT 1 [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinadami.com/' LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.imcmc.com.cn/category.php?id=205' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://so.redocn.com/haibao/b4f3c3d7baa3b1a8.htm' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.58.com/pptmi112/' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dingdami.com/' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.damicms.com/' LIMIT 1 [ RunTime:0.000324s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:37:39+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.101819s][吞吐率：9.82req/s] [内存消耗：3,650.53kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000121s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000120s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000126s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000100s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000137s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:37:40+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.069448s][吞吐率：14.40req/s] [内存消耗：3,354.31kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004600s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000093s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:37:41+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/website
+[ log ] spider.yumishe88.com/index.php/index/index/website [运行时间：0.082075s][吞吐率：12.18req/s] [内存消耗：3,650.53kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 0,100 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000139s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000099s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000111s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000102s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000117s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000123s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000112s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000093s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000103s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000113s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000116s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000087s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:38:00+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/website?page=2
+[ log ] spider.yumishe88.com/index.php/index/index/website?page=2 [运行时间：0.097672s][吞吐率：10.24req/s] [内存消耗：3,651.90kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'website',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->website[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/website.html [ array (
+  0 => 'websiteData',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000538s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_website` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `is_delete` = 0 ORDER BY id desc LIMIT 100,100 [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000127s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000090s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000124s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000101s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000130s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000087s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000084s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000085s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000115s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000108s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000114s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000098s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000109s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000106s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000107s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000095s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000080s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000096s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000110s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000079s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000086s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000088s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000076s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000081s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000075s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000073s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000079s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:38:05+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.075049s][吞吐率：13.32req/s] [内存消耗：3,354.38kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/website?page=2',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000799s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000114s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:38:14+08:00 ] 211.149.239.60 61.164.246.180 GET /index.php/index/index/keywords
+[ log ] spider.yumishe88.com/index.php/index/index/keywords [运行时间：0.050055s][吞吐率：19.98req/s] [内存消耗：3,354.31kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'keywords',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->keywords[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/keywords.html [ array (
+  0 => 'keywordsData',
+  1 => 'page',
+  2 => 'busTitle',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_business` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `id`,`business_name` FROM `au_business` WHERE  `is_delete` = 0 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `id`,`keyword`,`bid`,`add_time`,`select_state`,`upload_time` FROM `au_keywords` WHERE  `is_delete` = 0 LIMIT 0,10 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT `business_name` FROM `au_business` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000151s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T10:38:48+08:00 ] 211.149.239.60 61.164.246.180 POST /index.php/index/spider/_apigettopinfo.html
+[ log ] spider.yumishe88.com/index.php/index/spider/_apigettopinfo.html [运行时间：29.758945s][吞吐率：0.03req/s] [内存消耗：2,894.77kb] [文件加载：48]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'spider',
+    2 => '_apigettopinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-forwarded-for' => '117.136.40.185',
+  'x-real-ip' => '117.136.40.185',
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'close',
+  'content-length' => '5',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://spider.yumishe88.com/index.php/index/index/keywords',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509173036,1509173090,1509444074,1509694073; Hm_lvt_6925839509ea52f924e410725015f7b4=1509173036,1509173091,1509444074,1509694073; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509694073; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509694073',
+)
+[ info ] [ PARAM ] array (
+  'kid' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Spider->_apiGetTopInfo[ /www/web/spider5118/public_html/application/index/controller/Spider.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:dbname=autouploads;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_keywords` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT `keyword` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] UPDATE `au_keywords`  SET `upload_time`=1509763098  WHERE  `id` = 6 [ RunTime:0.006891s ]
+[ sql ] [ SQL ] SELECT `id`,`bid` FROM `au_keywords` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.008663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `au_website` [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/大米/22607?fr=aladdin' LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=′ó?×&fr=ala&ala=1&alatpl=adress&pos=0&hs=2&xthttps=000000' LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.dami.cn/' LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishij.net/大米' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://dami.99114.com/' LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.meishichina.com/YuanLiao/DaMi/' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xinshipu.com/zuofadaquan/1147/' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://baike.baidu.com/item/有机大米/2506874' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami518.com/' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xiachufang.com/category/743/' LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pingce.net/' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=′ó?×&fr=ala0&tpl=5' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baidu.com/s?tn=baidurt&rtt=1&bsst=1&wd=′ó?×&origin=ps' LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.haodou.com/recipe/all/85/' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.baike.com/wiki/大米' LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.zhihu.com/question/19920993' LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljsdm.com/' LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.xiangha.com/xiangke/402' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami168.cn/' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.byb.cn/food_78.aspx' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://wenku.baidu.com/view/d67c80de16fc700aba68fc26.html' LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://idami.cc/' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.douguo.com/ingredients/大米' LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://baike.pcbaby.com.cn/qzbd/1024683.html' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.51dami.cc/' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.1688.com/topic/dami.html' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinagrain.cn/dami' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.womai.com/Sort-0-6215.htm' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.ttmeishi.com/YuanLiao/dami/' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.sh/' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.china-10.com/china/060dm_index.html' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jinlongyu.cn/brand/ejbrand_105007006004.html' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://gmjyw.99114.com/' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmfh.org.cn/' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://i.youku.com/u/UMTMwMjQyMzUwNA==' LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yz88.org.cn/qg/dami/' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.ifeng.com/opinion/special/dudami/' LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://list.suning.com/0-500436-0.html' LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5chang.cn/' LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnhnb.com/p/dami/' LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.5cdm.com/' LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.clmiye.com/' LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.ch-rice.com/' LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dmzl.com/' LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jldmw.com/' LIMIT 1 [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://weibo.com/jamiebilbow' LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.slblmy.com/' LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.suning.com/018u9.html' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://china.globrand.com/join-dami/' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jxsnmy.cn/' LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xsmy.com/' LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.shengzhujiage.com/special-dami/' LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.nongnet.com/tag_26.aspx' LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcyfmy.com/' LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sfbest.com/oil/111-0-0-0-0-2-0-0-0-0-0.html' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://shop.bytravel.cn/produce/54CD6C3459277C73/' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dongbeijiangda.com/' LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://fitness.39.net/food/14205.html' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmxh.com/' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xjbh.net/prod-17-1701-170100/cat75.html' LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.damiceo.com/' LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zou114.com/nutrient/y1.html' LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yudaofu1905.com.cn/' LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.beixian.com/' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.58pic.com/tupian/dami.html' LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.khygmy.com/' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.yzzhongyue.com/' LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://health.pclady.com.cn/healthzq/liangshi/dami/' LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnys.com/shiliao/dami.html' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://search.ule.com/search.do?keywords=大米' LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zhaoshang100.com/s-626/' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami88.com/' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hi-rice.net/' LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zgjm.org/wupin/dami.html' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://news.foodmate.net/tag_275.html' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sgexe.com/' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.hljdmzs.com/' LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.cnjidan.com/dami/' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://iask.sina.com.cn/b/11743896.html' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://corp.net114.com/scat-dami.html' LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.zgjydm.roboo.com/' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dt888.cn/' LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.wcfymy.com/' LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.sggdm.com/' LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.jssfmy.com/' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.pcbaby.com.cn/tlist/485.html' LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://zhidao.baidu.com/link?url=YD3cjA_XdS85GmV0sUCZ0FaSqIsGpGbqCE-HCzo90xB60UjQqmjM-0l8635SXvjCGF4mVM2NtkJvk3vdMGdO7a' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] INSERT INTO `au_website` (`search_engine` , `ip` , `title` , `page_url` , `rank` , `js_code` , `top_rank` , `site_weight` , `kid` , `bid` , `add_time`) VALUES ('baidupc' , '60.168.80.117' , '大米英语怎么写?_百度知道' , 'http://zhidao.baidu.com/link?url=YD3cjA_XdS85GmV0sUCZ0FaSqIsGpGbqCE-HCzo90xB60UjQqmjM-0l8635SXvjCGF4mVM2NtkJvk3vdMGdO7a' , 87 , 'javascript:void(0);document.write(\"<a href=\'http://zhidao.baidu.com\' target=\'_blank\'>click</a>\");' , 3402163 , 'S+' , 6 , 17 , 1509763128) [ RunTime:0.210013s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dami.net/' LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://v.qq.com/vplus/dmpc' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.caoguilin.com/' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.xjmqdm.com/' LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://tieba.baidu.com/f?kw=五常大米' LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.spzs.net/zs/b8-s82-p1.htm' LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.chinadami.com/' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'https://www.ys137.com/yinshi/149698.html' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://so.redocn.com/haibao/b4f3c3d7baa3b1a8.htm' LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.58.com/pptmi112/' LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.dingdami.com/' LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.damicms.com/' LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT * FROM `au_website` WHERE  `page_url` = 'http://www.bigmii.com/' LIMIT 1 [ RunTime:0.000299s ]
+
+---------------------------------------------------------------
+[ 2017-11-04T21:32:14+08:00 ] 211.149.239.60 59.63.249.234 GET /
+[ log ] spider.yumishe88.com/ [运行时间：0.084646s][吞吐率：11.81req/s] [内存消耗：2,188.48kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458,1509801165; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509801259; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458,1509801165; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509801259',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/web/spider5118/public_html/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/spider5118/public_html/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T21:47:36+08:00 ] 211.149.239.60 59.63.249.234 GET /static/spiderWx/image/V.680.jpg
+[ log ] spider.yumishe88.com/static/spiderWx/image/V.680.jpg [运行时间：0.054826s][吞吐率：18.24req/s] [内存消耗：1,846.38kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'spiderWx',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.15.152900 MicroMessenger/undefined Language/zh_CN webview/22 weapp/66147',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'https://servicewechat.com/wx29b9f96b24003867/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T21:49:00+08:00 ] 211.149.239.60 59.63.249.234 GET /static/spiderWx/image/tooopen_sy_143912755726.jpg
+[ log ] spider.yumishe88.com/static/spiderWx/image/tooopen_sy_143912755726.jpg [运行时间：0.049272s][吞吐率：20.30req/s] [内存消耗：1,847.41kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'spiderWx',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_0b4f63ebb845b713c188d2d41593beda=1509033779,1509630458,1509801165; Hm_lpvt_0b4f63ebb845b713c188d2d41593beda=1509801259; Hm_lvt_6925839509ea52f924e410725015f7b4=1509033779,1509630458,1509801165; Hm_lpvt_6925839509ea52f924e410725015f7b4=1509801259',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T22:51:18+08:00 ] 211.149.239.60 59.63.249.234 GET /static/spiderWx/image/my-nologin.png
+[ log ] spider.yumishe88.com/static/spiderWx/image/my-nologin.png [运行时间：0.081678s][吞吐率：12.24req/s] [内存消耗：1,846.57kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'spiderWx',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 wechatdevtools/0.15.152900 MicroMessenger/undefined Language/zh_CN webview/54 weapp/14287',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'https://servicewechat.com/wx29b9f96b24003867/devtools/page-frame.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-11-04T22:51:25+08:00 ] 211.149.239.60 59.63.249.234 GET /static/spiderWx/image/my-nologin.png
+[ log ] spider.yumishe88.com/static/spiderWx/image/my-nologin.png [运行时间：0.035445s][吞吐率：28.21req/s] [内存消耗：1,846.66kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/spider5118/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'spiderWx',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'spider.yumishe88.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

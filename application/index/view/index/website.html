@@ -1,0 +1,108 @@
+{extend name="public/base" /}
+{block name="content"}
+
+<style>
+    .formDiv {
+        height: 100%;
+    }
+
+    .blank {
+        margin-bottom: 10%;
+    }
+
+    .el-pager li {
+        font-size: 19px;
+    }
+
+</style>
+
+
+<div class="formDiv">
+
+    <div style="margin-top: 5%;">网站抓取数据列表：</div>
+    <span style="color: #F56741;font-size: 15px;">点击网站标题可以跳转到目标页面</span>
+    <table class="el-table__body" style="width: 820px;border: 5px;">
+        <thead>
+        <tr class="el-table_row">
+            <th>ID</th>
+            <th>网站标题</th>
+            <th>排名</th>
+            <th>前100名</th>
+            <th>权重</th>
+            <th>关键词</th>
+            <th>时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php if(sizeof($websiteData) == 0){ ?>
+        <tr>
+            <td colspan="4" style="text-align: center;font-weight: bold">
+                暂时没有数据
+            </td>
+        </tr>
+        <?php }else{ ?>
+        <?php foreach($websiteData as $k => $v){ ?>
+        <?php if($k%2 == 0){ ?>
+        <tr class="el-table__row" style="background-color: #FDF5E6">
+            <td class="el-table_1_column_20" >
+                <?php echo $v['id']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <a href="<?php echo $v['page_url']; ?>" target="_blank" title="<?php echo $v['page_url']; ?>"><?php echo $v['title']; ?></a>
+            </td>
+
+            <td class="el-table_1_column_10">
+                <?php echo $v['rank']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo $v['top_rank']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo $v['site_weight']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo getKeywordName($v['kid']); ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo date('Y-m-d',$v['add_time']); ?>
+            </td>
+        </tr>
+        <?php }else{ ?>
+        <tr class="el-table__row el-table__row">
+            <td class="el-table_1_column_20" >
+                <?php echo $v['id']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <a href="<?php echo $v['page_url']; ?>" target="_blank" title="<?php echo $v['page_url']; ?>"><?php echo $v['title']; ?></a>
+            </td>
+
+            <td class="el-table_1_column_10">
+                <?php echo $v['rank']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo $v['top_rank']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo $v['site_weight']; ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo getKeywordName($v['kid']); ?>
+            </td>
+            <td class="el-table_1_column_10">
+                <?php echo date('Y-m-d',$v['add_time']); ?>
+            </td>
+        </tr>
+        <?php } ?>
+        <?php } ?>
+        <?php } ?>
+        </tbody>
+    </table>
+
+</div>
+
+<div class="el-pager" style="margin-top: 10%;">
+    {$page}
+</div>
+
+
+{/block}

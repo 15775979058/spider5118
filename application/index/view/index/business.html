@@ -1,0 +1,152 @@
+{extend name="public/base" /}
+{block name="content"}
+<style>
+    .formDiv{
+        height: 100%;
+    }
+    .blank{
+        margin-bottom: 10%;
+    }
+    .el-pager li{
+        font-size: 19px;
+    }
+
+</style>
+
+
+<div class="formDiv">
+    <form action="" method="post">
+        <div>行业名称：</div>
+        <input type="text" class="el-input__inner blank" name="businessName" placeholder="请输入行业名称" />
+        <p/>
+        <input id="submitBusindess" style="width: 30%;margin-left: 20%" class="el-button el-button--primary" value="提交" />
+    </form>
+
+    <div style="margin-top: 5%;">行业列表：</div>
+
+    <table class="el-table__body" style="width: 820px;border: 5px;">
+        <thead>
+            <tr class="el-table_row">
+                <th>ID</th>
+                <th>行业名称</th>
+                <th>添加时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php if(sizeof($busData) == 0){ ?>
+                <tr>
+                    <td colspan="4" style="text-align: center;font-weight: bold">
+                        暂时没有数据
+                    </td>
+                </tr>
+            <?php }else{ ?>
+                <?php foreach($busData as $k => $v){ ?>
+                    <?php if($k%2 == 0){ ?>
+                        <tr class="el-table__row" style="background-color: #FDF5E6">
+                            <td class="el-table_1_column_10">
+                                <?php echo $v['id']; ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <?php echo $v['business_name']; ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <?php echo date('Y-m-d',$v['add_time']); ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <button onclick="delBusiness(<?php echo $v['id']; ?>)" type="button" class="el-button el-button--primary" value="删除">
+                                    <i class="el-icon-delete">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                    <?php }else{ ?>
+                        <tr class="el-table__row el-table__row">
+                            <td class="el-table_1_column_10">
+                                <?php echo $v['id']; ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <?php echo $v['business_name']; ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <?php echo date('Y-m-d',$v['add_time']); ?>
+                            </td>
+                            <td class="el-table_1_column_10">
+                                <button onclick="delBusiness(<?php echo $v['id']; ?>)" type="button" class="el-button el-button--primary" value="删除">
+                                    <i class="el-icon-delete">
+                                    </i>
+                                </button>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                <?php } ?>
+            <?php } ?>
+        </tbody>
+    </table>
+
+</div>
+<div class="el-pager" style="margin-top: 10%;">
+    {$page}
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#submitBusindess').click(function(){
+            var businessName = $('input[name="businessName"]').val();
+
+            $.ajax({
+                type: "POST",
+                url: "{:url('Index/business')}",
+                data: {businessName: businessName},
+                async: false,
+                dataType: "json",
+                success: function(res){
+
+                    if(res.status == 1){
+                        alert(res.msg);
+                        location.reload();
+                        return;
+                    }else{
+                        alert(res.msg);
+                        return;
+                    }
+                }
+            });
+
+        });
+    });
+
+    //js中用正则表达式 过滤特殊字符, 校验所有输入域是否含有特殊符号
+    function stripscript(s) {
+        var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）&mdash;—|{}【】‘；：”“'。，、？]");
+        var rs = "";
+        for (var i = 0; i < s.length; i++) {
+            rs = rs + s.substr(i, 1).replace(pattern, '');
+        }
+        return rs;
+    }
+
+    //删除行业
+    function delBusiness(id){
+        $.ajax({
+            type: "POST",
+            url: "{:url('Index/_delBusiness')}",
+            data: {busId: id},
+            async: false,
+            dataType: "json",
+            success: function(res){
+
+                if(res.status == 1){
+                    alert(res.msg);
+                    location.reload();
+                    return;
+                }else{
+                    alert(res.msg);
+                    return;
+                }
+            }
+        });
+    }
+</script>
+
+{/block}
